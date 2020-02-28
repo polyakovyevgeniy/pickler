@@ -10,7 +10,7 @@ class Pickler:
     """
     def __init__(self, exclution_vars: List[str] = [],
                  var_prefix: str = 'gv',
-                 store_path: str = "env/", config_path='pickler/config.yaml'):
+                 store_path: str = "vars/", config_path='pickler/config.yaml'):
 
         # Переменные, которые нужно исключить их снхронизации
         self.exclution_vars: List[str] = exclution_vars
